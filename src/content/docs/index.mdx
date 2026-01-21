@@ -1,40 +1,54 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Archives de Neferos
+description: Wiki personnel et bible de l'univers du roman Neferos.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 📖 Bible d'univers et documentation du projet roman
   image:
-    file: ../../assets/houston.webp
+    alt: Neferos Logo 
+    file: ../../assets/planet.webp  # Décommente si tu as une image
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Entrer dans les archives
+      link: /intro/accueil/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Explorer les personnages
+      link: /personnages/
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 🌍 Découvrir l'Univers
+
+Cette archive contient la **documentation complète de Neferos**, l'univers de fantasy que je construis.
+
+Tu trouveras des **fiches de personnages**, des **descriptions de lieux**, des **langues inventées**, et tout ce qui constitue la "bible" de mon roman.
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="👥 Personnages" icon="pencil">
+		Fiches détaillées des protagonistes, antagonistes et personnages secondaires.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="🗺️ Géographie" icon="open-book">
+		Royaumes, cités, cartes et environnements de Neferos.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="📚 Langues & Culture" icon="setting">
+		Grammaire, vocabulaire et traditions des peuples.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="📖 Glossaire" icon="magnifier">
+		Définitions des termes magiques, culturels et conceptuels.
 	</Card>
 </CardGrid>
+
+---
+
+## 🚀 Comment utiliser ce Wiki
+
+1. **Recherche rapide** : Appuie sur `Ctrl + K` (ou `Cmd + K`) pour ouvrir la barre de recherche
+2. **Navigation** : Utilise la barre latérale pour explorer par catégorie
+3. **Liens** : Clique sur les liens bleus pour naviguer entre les fiches liées
+4. **Notes de l'auteur** : Cherche les encadrés "Note de l'auteur" pour mes réflexions méta
+
+:::note[En construction]
+Ce wiki est un **work in progress**. Je l'enrichis au fur et à mesure que j'avance sur le roman.
+:::

@@ -1,0 +1,155 @@
+/* ============================================
+   CUSTOM CSS : WIKI NEFEROS (Structure Bizarre Binary + Palette Violette)
+   ============================================ */
+
+/* 1. POLICE INTER */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+	--sl-font-family: 'Inter', system-ui, sans-serif;
+	--sl-font-family-headings: 'Inter', system-ui, sans-serif;
+}
+
+/* 2. COULEURS (Ta palette violette) */
+:root {
+    /* Palette Violette & Sombre */
+	--sl-hue-accent: 290;
+	--sl-saturation-accent: 100%;
+
+    /* Accents Violets */
+	--sl-color-accent-low: #36113e;   /* Fond boutons/badges sombre */
+	--sl-color-accent: #a400c0;       /* Violet vif principal */
+	--sl-color-accent-high: #e3b6ed;  /* Violet très clair */
+
+    /* Nuances de Gris Violacés (Backgrounds) */
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #f2e9fd;
+	--sl-color-gray-2: #c7bdd5;
+	--sl-color-gray-3: #9581ae;
+	--sl-color-gray-4: #614e78;
+	--sl-color-gray-5: #412e55;       /* Bordures discrètes */
+	--sl-color-gray-6: #2f1c42;       /* Background secondaire */
+	--sl-color-black: #1c1425;        /* Background principal (très sombre) */
+    
+    /* Application des couleurs aux zones principales */
+    --sl-color-bg: #1c1425;           /* Fond de page */
+    --sl-color-bg-nav: #1c1425;       /* Navbar (même fond) */
+    --sl-color-bg-sidebar: #1c1425;   /* Sidebar (même fond) */
+    --sl-color-hairline: #412e55;     /* Lignes de séparation */
+    --sl-color-hairline-shade: #1c1425; /* Ombre ligne */
+    
+    /* Couleur du texte accentué */
+    --sl-color-text-accent: #e3b6ed;
+}
+
+/* 3. ESPACEMENTS & TYPOGRAPHIE (Style Bizarre Binary) */
+:root {
+    --sl-line-height: 1.75;
+    --sl-nav-height: 3.5rem;
+}
+
+.sl-markdown-content p {
+    margin-bottom: 1.5em;
+    color: var(--sl-color-gray-2);
+}
+
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3 {
+    color: var(--sl-color-white);
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+/* 4. SIDEBAR - LIEN ACTIF (Structure exacte Bizarre Binary) */
+.sidebar-content a[aria-current="page"] {
+    background-color: var(--sl-color-text-accent);
+    color: var(--sl-color-white);
+    border-inline-start-color: var(--sl-color-accent); /* Ta couleur d'accent */
+    font-weight: 600;
+}
+
+.sidebar-content a:not([aria-current="page"]) {
+    color: var(--sl-color-gray-2);
+}
+
+.sidebar-content a:not([aria-current="page"]):hover {
+    color: var(--sl-color-white);
+}
+/* Force la variable globale */
+:root {
+    --sl-color-bg-sidebar: #2f1c42 !important; /* Force ta couleur gray-6 */
+}
+
+/* Force l'élément sidebar directement */
+.sidebar-pane, 
+.right-sidebar-panel {
+    background-color: #2f1c42 !important;
+}
+
+/* S'assure que sur mobile le menu est aussi de la bonne couleur */
+:where(.astro-vrdttmbt).sidebar-pane {
+    background-color: #2f1c42 !important;
+}
+
+/* 5. NAVIGATION & UI */
+header.header {
+    background-color: var(--sl-color-bg-nav);
+    border-bottom: 1px solid var(--sl-color-gray-5);
+}
+
+/* Cache le texte "Wiki Neferos" */
+.site-title span { display: none !important; }
+
+/* 6. BOUTONS (Ton style demandé avec texte noir) */
+.sl-link-button.primary {
+    background-color: var(--sl-color-accent-high) !important;
+    border-color: var(--sl-color-accent-high) !important;
+    color: var(--sl-color-black) !important;
+    font-weight: 600;
+    border-radius: 999rem;
+}
+
+.sl-link-button.primary:hover {
+    background-color: var(--sl-color-white) !important; /* Devient blanc au survol */
+    color: var(--sl-color-black) !important;
+    text-decoration: none !important;
+}
+
+@media (min-width: 50rem) {
+    .sl-link-button {
+        font-size: 1rem !important;
+        padding: 0.9375rem 1.25rem !important;
+    }
+}
+
+/* 7. CARTES */
+.card {
+    background-color: var(--sl-color-black);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    border-color: var(--sl-color-accent);
+}
+
+/* 8. TABLEAUX (Style clean du site modèle) */
+.sl-markdown-content th:not(:where(.not-content *)) {
+  color: var(--sl-color-white);
+  font-weight: 600;
+  border-bottom: 1px solid var(--sl-color-gray-4);
+}
+.sl-markdown-content td:not(:where(.not-content *)) {
+  border-bottom: 1px solid var(--sl-color-gray-5);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.4rem; }
+    p { font-size: 1rem; }
+}
