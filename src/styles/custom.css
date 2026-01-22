@@ -81,11 +81,7 @@
     --sl-color-bg-sidebar: #2f1c42 !important; /* Force ta couleur gray-6 */
 }
 
-/* Force l'élément sidebar directement */
-.sidebar-pane, 
-.right-sidebar-panel {
-    background-color: #2f1c42 !important;
-}
+
 
 /* S'assure que sur mobile le menu est aussi de la bonne couleur */
 :where(.astro-vrdttmbt).sidebar-pane {
@@ -95,7 +91,7 @@
 /* 5. NAVIGATION & UI */
 header.header {
     background-color: var(--sl-color-bg-nav);
-    border-bottom: 1px solid var(--sl-color-gray-5);
+    border-bottom: 1px solid var(--sl-color-gray-6);
 }
 
 /* Cache le texte "Wiki Neferos" */
@@ -126,7 +122,7 @@ header.header {
 /* 7. CARTES */
 .card {
     background-color: var(--sl-color-black);
-    border: 1px solid var(--sl-color-gray-5);
+    border: 1px solid var(--sl-color-gray-6);
     border-radius: 12px;
     padding: 1.5rem;
     transition: transform 0.2s ease, border-color 0.2s ease;

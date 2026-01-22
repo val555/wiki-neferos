@@ -5,12 +5,12 @@ description: Registre des protagonistes, alliés et ennemis de Neferos.
 
 import { Card, CardGrid, LinkCard, Tabs, TabItem, Badge } from '@astrojs/starlight/components';
 
-Classés par cercles d'influence autour de Soden.
+Classés par cercles d'influence autour de Saudean.
 
-## A. Le Protagoniste : Soden Wolderfade
+## A. Le Protagoniste : Saudean Wolderfade
 
-<Card title="Soden Wolderfade" icon="star">
-  **Identité** : Hybride (Saïdour/Anjoury) • Getsha'r • Ennéagramme 6 (Loyal/Sceptique) → 8 (Challenger)
+<Card title="Saudean Wolderfade" icon="star" class="card-soden">
+  **Identité** : Hybride (Saïdour/Anjoury) • Getsha'r • Ennéagramme 6w5 (Loyal/Sceptique) → 8 (Challenger)
   
   <Tabs>
     <TabItem label="Arc Narratif">
@@ -41,15 +41,14 @@ Classés par cercles d'influence autour de Soden.
     **Prince Anjoury**
     Tiraillé entre loyauté impériale et amitié.
   </Card>
-  <Card title="Evine Hérédia" icon="nix">
+  <Card title="Evine Hérédia" icon="moon" class="card-evine">
     **Uôn Saïdour**
     Visionnaire, têtue, lien avec l'Ancestrale.
   </Card>
-  <Card title="Arinde & Dake" icon="setting">
+  <Card title="Arinde & Dake" icon="rocket" class="card-arinde">
     **Les Techniciens**
     Orphelins de guerre. Le duo comique et pratique (mécanique, pilotage).
   </Card>
-  <Card title="Maêlan" icon="sun">
   <Card title="Maêlan" icon="sun" class="card-maelan">
     **Officière Anjoury**
     Compétente, fière, relation secrète avec Dray.
@@ -76,7 +75,7 @@ Classés par cercles d'influence autour de Soden.
       </Card>
     </CardGrid>
   </TabItem>
-  <TabItem label="Empire Anjoury" icon="sun">
+  <TabItem label="Empire Anjoury" icon="warning">
     ### La Menace Politique
     <CardGrid>
       <Card title="Exrod Sofink">
