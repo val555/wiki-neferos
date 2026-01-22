@@ -137,6 +137,62 @@ header.header {
     border-color: var(--sl-color-accent);
 }
 
+/* --- OVERRIDES COULEURS PERSONNAGES --- */
+
+/* Soden : Vert (Émeraude) */
+.card-soden {
+    --sl-color-accent: #2ecc71 !important;
+    border-color: #2ecc7155 !important; /* Bordure légère */
+}
+.card-soden:hover {
+    border-color: #2ecc71 !important;
+}
+
+/* Dray : Jaune (Or) */
+.card-dray {
+    --sl-color-accent: #f1c40f !important;
+    border-color: #f1c40f55 !important;
+}
+.card-dray:hover {
+    border-color: #f1c40f !important;
+}
+
+/* Evine : Bleu Glace Clair */
+.card-evine {
+    --sl-color-accent: #a0e6ff !important;
+    border-color: #a0e6ff55 !important;
+}
+.card-evine:hover {
+    border-color: #a0e6ff !important;
+}
+
+/* Arinde & Dake : Rouge */
+.card-arinde {
+    --sl-color-accent: #e74c3c !important;
+    border-color: #e74c3c55 !important;
+}
+.card-arinde:hover {
+    border-color: #e74c3c !important;
+}
+
+/* Maêlan : Rose */
+.card-maelan {
+    --sl-color-accent: #e91e63 !important;
+    border-color: #e91e6355 !important;
+}
+.card-maelan:hover {
+    border-color: #e91e63 !important;
+}
+
+/* Izaûl : Vert (Citrine/Lime) - Différent de Soden */
+.card-izaul {
+    --sl-color-accent: #cddc39 !important;
+    border-color: #cddc3955 !important;
+}
+.card-izaul:hover {
+    border-color: #cddc39 !important;
+}
+
 /* 8. TABLEAUX (Style clean du site modèle) */
 .sl-markdown-content th:not(:where(.not-content *)) {
   color: var(--sl-color-white);
