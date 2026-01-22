@@ -56,7 +56,7 @@ export default defineConfig({
 
 				// ---------- GROUPE 5 : Personnages ----------
 				{
-					label: '👥 Personnages',
+					label: '👥 Codex des Personnages',
 					autogenerate: { directory: 'personnages' },
 				},				
 
