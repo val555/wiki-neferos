@@ -1,24 +1,21 @@
 ---
-title: Planète Aenastir
+title: 🪐AENASTIR
 description: Planète principale du peuple Anjoury
 sidebar:
   order: 1
 ---
 
-Voici la fiche détaillée de la planète **Aenastir**
+
+*   **Nom :** Aenastir
+*   **Capitale :** Elanar
+*   **Système Solaire :** Astriel
+*   **Bras Galactique :** Onalia (ou Anjur)
+*   **Population dominante :** Anjoury
+*   **Surnoms :** La Planète Verte, Le Joyau d’Onalia, La Cité des Lumières
 
 ---
 
-# 🪐 Fiche Planète : AENASTIR
-
-**Surnoms :** La Planète Verte, Le Joyau d’Onalia, La Cité des Lumières.
-**Système Solaire :** Astriel.
-**Bras Galactique :** Onalia (ou Anjur).
-**Population dominante :** Anjourys.
-
----
-
-## I. ASTROGRAPHIE & CLIMAT
+## INFOS & CLIMAT
 
 *   **Type :** Planète tellurique tropicale.
 *   **Soleils :** Système binaire composé de deux étoiles rouges nommées **Alunda** et **Dolune**.
@@ -29,27 +26,27 @@ Voici la fiche détaillée de la planète **Aenastir**
 
 ---
 
-## II. LIEUX CLÉS & URBANISME
+## LIEUX CLÉS & URBANISME
 
-D'après la carte et les descriptions narratives, la planète est divisée en plusieurs masses continentales, mais l'activité se concentre sur les zones suspendues et la capitale.
+La planète est divisée en plusieurs masses continentales, mais l'activité se concentre sur les zones suspendues et la capitale.
 
-### 1. Naêlia (Le Quartier Impérial)
+### Naêlia (Le Quartier Impérial)
 C’est le cœur politique de la galaxie. Située sur une île volante verdoyante, c'est là que réside l'élite.
 *   **Le Palais Amperius :** La résidence de l'Empereur Exrod. C’est une véritable "ville intérieure" monumentale, faite d'or, de marbre blanc et de colonnes finement ciselées. Il est entouré de jardins suspendus, de cascades déversant leurs flots dans le vide et de statues splendides.
 *   **L'Astroport Privé :** Réservé à la famille royale et aux invités de marque, il donne directement sur les jardins du palais.
 
-### 2. Elanar (La Ville Sainte)
+### Elanar (La Ville Sainte)
 Capitale religieuse et civile visible sur la carte.
 *   **Architecture :** Tours de cristal s'élançant comme des aiguilles translucides, reflétant la lumière dorée. Voies de circulation suspendues pour les véhicules antigravité.
 *   **Temple d’El’shajurn :** Le sanctuaire principal dédié à la Déesse Anjur. Il abrite un bassin de cristal où les fidèles versent le *Khy’mara* (lumière liquide) et une grande tour de cristal. C'est ici que Dray vient prier.
 
-### 3. Autres Lieux Mentionnés
+### Autres Lieux Mentionnés
 *   **Académie de l’Alnor :** Lieu d'éducation prestigieux où Saudean a suivi (et détesté) les cours de maître Maerin.
 *   **Salles des classes d'Anatel :** Là où les jeunes Anjourys apprennent à maîtriser leur lumière astrale (grimoire de lumière).
 
 ---
 
-## III. SOCIÉTÉ & CULTURE
+## SOCIÉTÉ & CULTURE
 
 ### Gouvernement
 *   **Régime :** Empire absolu dirigé par la dynastie **Sofink**.
@@ -69,7 +66,7 @@ Aenastir est une forteresse technologique dissimulée sous une apparence paradis
 
 ---
 
-## IV. RÔLE DANS L'INTRIGUE (Réécriture)
+## RÔLE DANS L'INTRIGUE (Réécriture)
 
 *   **Passé (Backstory) :** C'est le lieu où Saudean a grandi de 1 à 10 ans, élevé au palais mais traité comme un "Shenaïl" (paria). C'est là qu'il a noué son amitié avec Dray.
 *   **Présent (Chapitres récents) :**
