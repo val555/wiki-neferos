@@ -1,0 +1,82 @@
+---
+title: Les Anjourys (Test Glass)
+description: Test du nouveau template Glassmorphism.
+sidebar:
+  hidden: true
+---
+
+import { Tabs, TabItem, Card, CardGrid } from '@astrojs/starlight/components';
+
+{/* BANNIÈRE D'AMBIANCE */}
+<div class="faction-banner">
+  {/* Si pas d'image, le CSS affichera un fond coloré par défaut */}
+  <div class="banner-overlay"></div>
+  <div class="banner-title">
+    <h1>L'EMPIRE ANJOURY</h1>
+    <p>Gardiens de la Lumière Astrale</p>
+  </div>
+</div>
+
+<div class="faction-layout">
+
+  {/* COLONNE PRINCIPALE */}
+  <div class="main-content">
+    <div class="intro-box">
+      <p>
+        Race dominante de l'Empire, les <strong>Anjourys</strong> puisent leur force dans la Lumière Astrale. 
+        Vivant des millénaires, ils se considèrent comme les gardiens de l'ordre galactique, bien que d'autres les voient comme des tyrans célestes.
+      </p>
+    </div>
+
+    <Tabs>
+      <TabItem label="Physiologie">
+        <div class="glass-panel">
+          <h3>Apparence & Aura</h3>
+          <p>Les Anjourys se distinguent par leur peau luminescente et leur taille imposante (souvent > 2m).</p>
+          <ul>
+            <li><strong>Yeux :</strong> Sans pupille, brillants d'une couleur liée à leur caste.</li>
+            <li><strong>Sang :</strong> Doré, chargé de particules astrales.</li>
+          </ul>
+        </div>
+      </TabItem>
+      <TabItem label="Société">
+        <div class="glass-panel">
+          <h3>La Hiérarchie Céleste</h3>
+          <p>Leur société est strictement pyramidale, dirigée par l'Empereur Exrod.</p>
+        </div>
+      </TabItem>
+    </Tabs>
+
+    <div class="tech-section">
+      <h3>Architecture & Technologie</h3>
+      <CardGrid>
+        <Card title="Cités de Cristal" icon="star">
+          Leurs villes flottent souvent au-dessus des nuages, construites en matériaux conducteurs.
+        </Card>
+        <Card title="Vaisseaux Solaires" icon="rocket">
+          Propulsés par des voiles solaires captant l'énergie des étoiles voisines.
+        </Card>
+      </CardGrid>
+    </div>
+  </div>
+
+  {/* SIDEBAR FICHE D'IDENTITÉ */}
+  <aside class="faction-sidebar">
+    <div class="sidebar-header">
+      {/* Placeholder visuel CSS pur */}
+      <div class="placeholder-portrait"></div> 
+      <h2>L'Empire</h2>
+    </div>
+    <ul class="stats-list">
+      <li><strong>Planète</strong> <span>Anjour Prime</span></li>
+      <li><strong>Vie</strong> <span>~3000 ans</span></li>
+      <li><strong>Alignement</strong> <span>Ordre / Domination</span></li>
+      <li><strong>Magie</strong> <span>Lumière Astrale</span></li>
+      <li><strong>Population</strong> <span>Faible (Élites)</span></li>
+    </ul>
+    <div class="sidebar-footer">
+      <button class="action-btn">Voir la chronologie</button>
+    </div>
+  </aside>
+
+</div>

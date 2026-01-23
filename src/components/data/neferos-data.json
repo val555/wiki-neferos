@@ -1,0 +1,34 @@
+{
+  "galaxyName": "Neferos",
+  "systems": [
+    {
+      "id": "sys-anjoury",
+      "name": "Système Anjoury",
+      "position": [10, 0, -5],
+      "color": "#f1c40f",
+      "description": "Siège de l'Empire.",
+      "planets": [
+        {
+          "id": "pl-capital",
+          "name": "Aenastir",
+          "texture": "aenastir_map.jpg",
+          "description": "Capitale de l'Empire Anjoury."
+        }
+      ]
+    },
+    {
+      "id": "sys-saidour",
+      "name": "Système Saïdour",
+      "position": [-8, 2, 8],
+      "color": "#a0e6ff",
+      "planets": [
+        {
+          "id": "pl-capital",
+          "name": "Drogmoss",
+          "texture": "drogmoss_map.jpg",
+          "description": "Capitale du royaume Saïdour."
+        }
+      ]
+    }
+  ]
+}
